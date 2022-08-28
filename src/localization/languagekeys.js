@@ -1,7 +1,6 @@
-
 const languagekeys = {
-    hello: "hello",
-    profile: "profile",
+    helloeveryone: "helloeveryone",
+    demomultisupport: "demomultisupport",
     summary: "summary",
     changeLanguage: "changelanguage",
     submit: "submit",

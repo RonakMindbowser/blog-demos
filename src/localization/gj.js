@@ -1,8 +1,8 @@
 import languagekeys from "./languagekeys";
 
 const gj = {
-    [languagekeys.hello]: 'બધાને હેલો',
-    [languagekeys.profile]: "આ રિએક્ટ-નેટિવમાં મલ્ટી લેંગ્વેજ સપોર્ટનો ડેમો છે",
+    [languagekeys.helloeveryone]: 'બધાને હેલો',
+    [languagekeys.demomultisupport]: "આ રિએક્ટ-નેટિવમાં મલ્ટી લેંગ્વેજ સપોર્ટનો ડેમો છે",
     [languagekeys.summary]: "સારાંશ",
     [languagekeys.changeLanguage]: "ભાષા બદલો",
     [languagekeys.submit]: "સબમિટ કરો",

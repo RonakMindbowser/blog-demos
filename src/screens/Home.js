@@ -6,8 +6,8 @@ import LanguageUtils from '../localization/LanguageUtils';
 const Home = () => {
     return (
         <View>
-            <Text style={{ color: "black" }}>{LanguageUtils.getLangText(languagekeys.hello)}</Text>
-            <Text style={{ color: "black", marginTop: 20 }}>{LanguageUtils.getLangText(languagekeys.profile)}</Text>
+            <Text style={{ color: "black" }}>{LanguageUtils.getLangText(languagekeys.helloeveryone)}</Text>
+            <Text style={{ color: "black", marginTop: 20 }}>{LanguageUtils.getLangText(languagekeys.demomultisupport)}</Text>
         </View>
     )
 }
