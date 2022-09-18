@@ -1,18 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   View,
 } from 'react-native';
-import LanguageUtils from './src/localization/LanguageUtils';
-import AppContainer from './src/navigator/AppNavigator';
+import DemoNavigation from './DemoNavigation';
 
 const App = () => {
-  useEffect(() => {
-    // LanguageUtils.setAppLangaugeFromDeviceStorage()
-  }, [])
-
   return (
     <View style={{ flex: 1 }}>
-      <AppContainer />
+      <DemoNavigation />
     </View>
   )
 };

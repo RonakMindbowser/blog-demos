@@ -37,17 +37,17 @@ function AppContainer() {
 
     if (isReady) {
         return (
-            <NavigationContainer>
-                <Tab.Navigator screenOptions={{
-                    tabBarIcon: () => null
-                }}
-                >
-                    <Tab.Screen name="Home" component={Home} />
-                    <Tab.Screen name="Setting" component={Setting} options={{
-                        headerTitle: LanguageUtils.getLangText(languagekeys.changeLanguage)
-                    }} />
-                </Tab.Navigator>
-            </NavigationContainer>
+            // <NavigationContainer>
+            <Tab.Navigator screenOptions={{
+                tabBarIcon: () => null
+            }}
+            >
+                <Tab.Screen name="Home" component={Home} />
+                <Tab.Screen name="Setting" component={Setting} options={{
+                    headerTitle: LanguageUtils.getLangText(languagekeys.changeLanguage)
+                }} />
+            </Tab.Navigator>
+            // </NavigationContainer>
         )
     }
     else {
